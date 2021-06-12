@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "612039176104",
+    "project_id": "vacation-destination-4a10d",
+    "storage_bucket": "vacation-destination-4a10d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:612039176104:android:64cbf174b3abf74ccc779d",
+        "android_client_info": {
+          "package_name": "com.example.jainam_vacation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "612039176104-bkp3uvsbjm4iorm1ggji12k7q2dc0poi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAb1Y7wsUClPs_jMacydSBeauExD2YDu0c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "612039176104-bkp3uvsbjm4iorm1ggji12k7q2dc0poi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

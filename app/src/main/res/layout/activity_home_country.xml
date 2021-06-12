@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeCountryActivity">
+
+    <ImageView
+        android:id="@+id/countryIcon"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.3" />
+
+
+    <TextView
+        android:id="@+id/countryTitle"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="50dp"
+
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="4dp"
+        android:drawablePadding="10dp"
+        android:gravity="center"
+        android:padding="6dp"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/countryTitleValue"
+        app:layout_constraintTop_toBottomOf="@id/countryIcon" />
+
+    <TextView
+        android:id="@+id/countryTitleValue"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="4dp"
+        android:drawablePadding="10dp"
+        android:gravity="center"
+        android:padding="6dp"
+
+        android:textStyle="bold"
+        app:layout_constraintLeft_toRightOf="@+id/countryTitle"
+        app:layout_constraintTop_toTopOf="@id/countryTitle" />
+    <TextView
+        android:id="@+id/countryCapital"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="50dp"
+
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="4dp"
+        android:drawablePadding="10dp"
+        android:gravity="center"
+        android:padding="6dp"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/countryCapitalValue"
+        app:layout_constraintTop_toBottomOf="@id/countryTitle" />
+
+    <TextView
+        android:id="@+id/countryCapitalValue"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="4dp"
+        android:drawablePadding="10dp"
+        android:gravity="center"
+        android:padding="6dp"
+
+        android:textStyle="bold"
+        app:layout_constraintLeft_toRightOf="@+id/countryCapital"
+        app:layout_constraintTop_toTopOf="@id/countryCapital" />
+
+
+    <TextView
+        android:id="@+id/countryCurrency"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="50dp"
+
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="4dp"
+        android:drawablePadding="10dp"
+        android:gravity="center"
+        android:padding="6dp"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/countryCurrencyValue"
+        app:layout_constraintTop_toBottomOf="@id/countryCapital" />
+
+    <TextView
+        android:id="@+id/countryCurrencyValue"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="4dp"
+        android:drawablePadding="10dp"
+        android:gravity="center"
+        android:padding="6dp"
+
+        android:textStyle="bold"
+        app:layout_constraintLeft_toRightOf="@id/countryCurrency"
+        app:layout_constraintTop_toTopOf="@id/countryCurrency" />
+
+    <TextView
+        android:id="@+id/population"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="50dp"
+
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="4dp"
+        android:drawablePadding="10dp"
+        android:gravity="center"
+        android:padding="6dp"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/populationValue"
+        app:layout_constraintTop_toBottomOf="@id/countryCurrency" />
+
+    <TextView
+        android:id="@+id/populationValue"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="4dp"
+        android:drawablePadding="10dp"
+        android:gravity="center"
+        android:padding="6dp"
+
+        android:textStyle="bold"
+        app:layout_constraintLeft_toRightOf="@id/population"
+        app:layout_constraintTop_toTopOf="@id/population" />
+
+    <TextView
+        android:id="@+id/language"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="50dp"
+
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="4dp"
+        android:drawablePadding="10dp"
+        android:gravity="center"
+        android:padding="6dp"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/languageValue"
+        app:layout_constraintTop_toBottomOf="@id/population" />
+
+    <TextView
+        android:id="@+id/languageValue"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="4dp"
+        android:drawablePadding="10dp"
+        android:gravity="center"
+        android:padding="6dp"
+
+        android:textStyle="bold"
+        app:layout_constraintLeft_toRightOf="@id/language"
+        app:layout_constraintTop_toTopOf="@id/language" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
